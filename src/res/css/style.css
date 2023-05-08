@@ -42,7 +42,7 @@ body {
   }
   
   .menu li a:hover {
-    background-color: #fd4a4a;
+    background-color: rgba(242, 61, 61, 0.5);
   }
 
   .regbtn{

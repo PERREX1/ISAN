@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url('res/img/bgmac.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
 
   }
 
@@ -71,6 +71,7 @@ body {
   }
   
   .texto {
+    font-family: 'Roboto', sans-serif;
     padding: 20px;
     text-align: center;
   }

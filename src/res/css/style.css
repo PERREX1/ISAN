@@ -89,6 +89,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     text-align: center;
+    background-color: rgba(122, 122, 122, 0.5);
   }
   
   .item img {

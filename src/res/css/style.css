@@ -103,6 +103,7 @@ body {
   
   .imagenes {
     width: 50%;
+    background-image: url('../img/product.png');
     position: inherit;
     float: right;
     padding: 20px;
@@ -115,6 +116,7 @@ body {
   }
   
   .img-visible {
+    background-image: url('../img/product.png');
     opacity: 1;
   }
   
@@ -170,3 +172,35 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  /* Slider */
+
+  .contenedor-slider
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 0px 40px;
+}
+
+.slider-izquierdo, .slider-derecho
+{
+    width: 5%;
+}
+
+.slider-izquierdo img, .slider-derecho img
+{
+   width: 100%;
+
+}
+
+.slider-screen
+{
+    width: 90%;
+}
+
+.slider-screen img
+{
+    width: 100%;
+}
